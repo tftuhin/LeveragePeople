@@ -199,22 +199,22 @@
 		$('.toggle-nav-menu').on('click', function(m){
 			m.preventDefault();
 			
-			if ( $(this).parents('.header-navigation-menu').find('.tab-nav-menu-content').is(':hidden') ) {		
-				$(this).parents('.header-navigation-menu').find('.tab-nav-menu-content').slideDown(400);
+			if ( $(this).closest('.site-header').find('.tab-nav-menu-content').is(':hidden') ) {		
+				$(this).closest('.site-header').find('.tab-nav-menu-content').slideDown(400);
 				if( window.innerWidth < 1200 ){
 					$(this).parents(".header-navigation-menu").find('.tab-nav-menu-content').parent('.tab-nav-menu').slideDown(400).fadeIn('slow');
 				}
 				else{
-					$(this).parents(".header-navigation-menu:not('.side-header-menu')").find('.tab-nav-menu-content').parent('.tab-nav-menu').slideDown(400).fadeIn('slow');
+					$(this).closest('.site-header').find('.tab-nav-menu').slideDown(400).fadeIn('slow');
 				}
 			}
 			else{
-				$(this).parents('.header-navigation-menu').find('.tab-nav-menu-content').slideUp(400);
+				$(this).closest('.site-header').find('.tab-nav-menu-content').slideUp(400);
 				if( window.innerWidth < 1200 ){
 					$(this).parents(".header-navigation-menu").find('.tab-nav-menu-content').parent('.tab-nav-menu').slideUp(400).fadeOut('fast');
 				}
 				else{
-					$(this).parents(".header-navigation-menu:not('.side-header-menu')").find('.tab-nav-menu-content').parent('.tab-nav-menu').slideUp(400).fadeOut('fast');
+					$(this).closest('.site-header').find('.tab-nav-menu').slideUp(400).fadeOut('fast');
 				}
 			}
 					
