@@ -168,25 +168,25 @@ website:   	http://www.themepunch.com
 	-	BASIC STYLES		-
 ******************************/
 
-.rev_slider_wrapper{
+.hero_slider_wrapper{
 	position:relative;
 	z-index: 0;
 	width:100%;
 }
 
-.rev_slider{
+.hero_slider{
 	position:relative;
 	overflow:visible;
 }
 
-.entry-content .rev_slider a,
-.rev_slider a { box-shadow: none; }
+.entry-content .hero_slider a,
+.hero_slider a { box-shadow: none; }
 
 .tp-overflow-hidden { 	overflow:hidden !important;}
 .group_ov_hidden 	{	overflow:hidden}
 
 .tp-simpleresponsive img,
-.rev_slider img{
+.hero_slider img{
 	max-width:none !important;	
 	transition: none;
 	margin:0px;
@@ -194,22 +194,22 @@ website:   	http://www.themepunch.com
 	border:none;
 }
 
-.rev_slider .no-slides-text{
+.hero_slider .no-slides-text{
 	font-weight:bold;
 	text-align:center;
 	padding-top:80px;
 }
 
-.rev_slider >ul,
-.rev_slider_wrapper >ul,
-.tp-revslider-mainul >li,
-.rev_slider >ul >li,
-.rev_slider >ul >li:before,
-.tp-revslider-mainul >li:before,
+.hero_slider >ul,
+.hero_slider_wrapper >ul,
+.tp-heroslider-mainul >li,
+.hero_slider >ul >li,
+.hero_slider >ul >li:before,
+.tp-heroslider-mainul >li:before,
 .tp-simpleresponsive >ul,
 .tp-simpleresponsive >ul >li,
 .tp-simpleresponsive >ul >li:before,
-.tp-revslider-mainul >li,
+.tp-heroslider-mainul >li,
 .tp-simpleresponsive >ul >li{
 	list-style:none !important;
 	position:absolute;	
@@ -225,25 +225,25 @@ website:   	http://www.themepunch.com
 }
 
 
-.tp-revslider-mainul >li,
-.rev_slider >ul >li,
-.rev_slider >ul >li:before,
-.tp-revslider-mainul >li:before,
+.tp-heroslider-mainul >li,
+.hero_slider >ul >li,
+.hero_slider >ul >li:before,
+.tp-heroslider-mainul >li:before,
 .tp-simpleresponsive >ul >li,
 .tp-simpleresponsive >ul >li:before,
-.tp-revslider-mainul >li,
+.tp-heroslider-mainul >li,
 .tp-simpleresponsive >ul >li { 
 	visibility:hidden; 
 }
 
-.tp-revslider-slidesli,
-.tp-revslider-mainul	{	
+.tp-heroslider-slidesli,
+.tp-heroslider-mainul	{	
 	padding:0 !important; 
 	margin:0 !important; 
 	list-style:none !important;
 }
 
-.rev_slider li.tp-revslider-slidesli {
+.hero_slider li.tp-heroslider-slidesli {
     position: absolute !important;
 }
 
@@ -254,8 +254,8 @@ website:   	http://www.themepunch.com
 .rs-toggle-content-active.tp-caption .rs-toggled-content { display:block;}
 .rs-toggle-content-active.tp-caption .rs-untoggled-content { display:none;}
 
-.rev_slider .tp-caption,
-.rev_slider .caption 	{ 
+.hero_slider .tp-caption,
+.hero_slider .caption 	{ 
 	position:relative;  
 	visibility:hidden; 
 	white-space: nowrap;
@@ -264,8 +264,8 @@ website:   	http://www.themepunch.com
 	z-index:1;
 }
 
-.rev_slider .tp-caption,
-.rev_slider .caption,
+.hero_slider .tp-caption,
+.hero_slider .caption,
 .tp-simpleresponsive img {
 	-moz-user-select: none;
     -khtml-user-select: none;
@@ -273,10 +273,10 @@ website:   	http://www.themepunch.com
     -o-user-select: none;
 }
 
-.rev_slider .tp-mask-wrap .tp-caption,
-.rev_slider .tp-mask-wrap *:last-child,
-.wpb_text_column .rev_slider .tp-mask-wrap .tp-caption,
-.wpb_text_column .rev_slider .tp-mask-wrap *:last-child{
+.hero_slider .tp-mask-wrap .tp-caption,
+.hero_slider .tp-mask-wrap *:last-child,
+.wpb_text_column .hero_slider .tp-mask-wrap .tp-caption,
+.wpb_text_column .hero_slider .tp-mask-wrap *:last-child{
 	margin-bottom:0;
 
 }
@@ -307,18 +307,18 @@ website:   	http://www.themepunch.com
 }
 
 .tp-forcenotvisible,
-.tp-hide-revslider,
+.tp-hide-heroslider,
 .tp-caption.tp-hidden-caption,
 .tp-parallax-wrap.tp-hidden-caption {	
 	visibility:hidden !important; 
 	display:none !important
 }
 
-.rev_slider embed,
-.rev_slider iframe,
-.rev_slider object,
-.rev_slider audio,
-.rev_slider video {
+.hero_slider embed,
+.hero_slider iframe,
+.hero_slider object,
+.hero_slider audio,
+.hero_slider video {
 	max-width: none !important
 }
 
@@ -341,7 +341,7 @@ website:   	http://www.themepunch.com
 
 .rev_column .tp-parallax-wrap  { vertical-align: top }
 
-.rev_slider .tp-caption.rev_row 	{
+.hero_slider .tp-caption.rev_row 	{
 	display:table;
 	position:relative;
 	width:100% !important;
@@ -1301,7 +1301,7 @@ body.rtl .tp-kbimg {left: 0 !important}
 .hginfo 					   { 	position:absolute;top:-2px;left:-2px;color:#e74c3c;font-size:12px;font-weight:600; background:#000;padding:2px 5px;}
 .indebugmode .tp-caption:hover { 	border:1px dashed #c0392b !important;}
 .helpgrid 					   { 	border:2px dashed #c0392b;position:absolute;top:0px;left:0px;z-index:0 }
-#revsliderlogloglog				{	padding:15px;color:#fff;position:fixed; top:0px;left:0px;width:200px;height:150px;background:rgba(0,0,0,0.7); z-index:100000; font-size:10px; overflow:scroll;}
+#herosliderlogloglog				{	padding:15px;color:#fff;position:fixed; top:0px;left:0px;width:200px;height:150px;background:rgba(0,0,0,0.7); z-index:100000; font-size:10px; overflow:scroll;}
 
 
 
