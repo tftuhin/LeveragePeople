@@ -11,6 +11,8 @@ const nextConfig: NextConfig = {
       { source: '/quiz', destination: '/quiz.html' },
       { source: '/strategy', destination: '/strategy.html' },
       { source: '/talent', destination: '/talent.html' },
+      { source: '/wp-content/:path*', destination: 'https://leveragepeople.us/wp-content/:path*' },
+      { source: '/wp-includes/:path*', destination: 'https://leveragepeople.us/wp-includes/:path*' },
     ];
   },
 };
