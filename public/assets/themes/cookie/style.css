@@ -3,14 +3,14 @@ Theme Name: cookie
 Theme URI: http://demo.agnidesigns.com/cookie
 Author: AgniDesigns
 Author URI: http://agnidesigns.com
-Description: Creative Multipurpose WordPress theme.
+Description: Creative Multipurpose SiteEngine theme.
 Version: 2.3.3
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, post-formats, sticky-post, translation-ready
 Text Domain: cookie
 
-This theme, like WordPress, is licensed under the GPL.
+This theme, like SiteEngine, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
 Agni Framework is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
@@ -3560,7 +3560,7 @@ a.mfp-arrow {
 }
 
 /* Custom Heading */
-.agni_custom_heading_content.vc_custom_heading a:hover {
+.agni_custom_heading_content.ux_custom_heading a:hover {
     opacity: 1;
 }
 .agni_custom_heading .text-center + .divide-line {
@@ -4579,13 +4579,13 @@ a.mfp-arrow {
     color:#f0f0f0;
 }
 
-.vc_tta-title-text {
+.ux_tta-title-text {
 	font-family: "Poppins", sans-serif;
 	font-weight: 600;
 	font-size: 18px;
 	letter-spacing: -0.02em;
 }
-.vc_tta.vc_general .vc_tta-tabs-container .vc_tta-tab>a{
+.ux_tta.ux_general .ux_tta-tabs-container .ux_tta-tab>a{
 	padding: 12px 24px;
 }
 

@@ -275,8 +275,8 @@ website:   	http://www.themepunch.com
 
 .hero_slider .tp-mask-wrap .tp-caption,
 .hero_slider .tp-mask-wrap *:last-child,
-.wpb_text_column .hero_slider .tp-mask-wrap .tp-caption,
-.wpb_text_column .hero_slider .tp-mask-wrap *:last-child{
+.uxb_text_column .hero_slider .tp-mask-wrap .tp-caption,
+.uxb_text_column .hero_slider .tp-mask-wrap *:last-child{
 	margin-bottom:0;
 
 }

@@ -51,7 +51,7 @@
 	})
 	
 	jQuery(document).on('ready', function(){
-		$('body:not(.vc_editor) .preloader').each(function(){
+		$('body:not(.ux_editor) .preloader').each(function(){
 			if( $(this).data('preloader-style') == '1' ){
 				$('body').jpreLoader({
 					splashID: "#preloader-1",

@@ -879,9 +879,9 @@ textarea {
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
-.page-content .wp-smiley,
-.entry-content .wp-smiley,
-.comment-content .wp-smiley {
+.page-content .ux-smiley,
+.entry-content .ux-smiley,
+.comment-content .ux-smiley {
   border: none;
   margin-bottom: 0;
   margin-top: 0;

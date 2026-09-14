@@ -2,7 +2,7 @@
 /* Media Queries for each site */
 @media (min-width:768px) {
 	
-	.container .vc_row.act_as_table{
+	.container .ux_row.act_as_table{
 		margin-left: 0;
 		margin-right: 0;
 	}
@@ -16,7 +16,7 @@
 	}
 }
 @media (min-width:768px) and (max-width:991px) {
-	.act_as_table > .vc_col-sm-12{
+	.act_as_table > .ux_col-sm-12{
 		display: block;
 	}
 }
