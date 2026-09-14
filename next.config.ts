@@ -13,6 +13,7 @@ const nextConfig: NextConfig = {
       { source: '/talent', destination: '/talent.html' },
       { source: '/wp-content/:path*', destination: 'https://leveragepeople.us/wp-content/:path*' },
       { source: '/wp-includes/:path*', destination: 'https://leveragepeople.us/wp-includes/:path*' },
+      { source: '/images/logo.png', destination: 'https://leveragepeople.us/wp-content/uploads/2019/12/400dpiLogoCropped-1024x309.png' },
     ];
   },
 };
